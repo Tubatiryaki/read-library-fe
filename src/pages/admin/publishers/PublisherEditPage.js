@@ -1,7 +1,12 @@
 import React from "react";
+import PublisherUpdateForm from "../../../components/admin/publisher/PublisherUpdateForm";
 
 const PublisherEditPage = () => {
-  return <div>PublisherEditPage</div>;
+  return (
+    <>
+      <PublisherUpdateForm />
+    </>
+  );
 };
 
 export default PublisherEditPage;

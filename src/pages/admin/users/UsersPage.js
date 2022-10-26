@@ -1,7 +1,16 @@
 import React from "react";
+import BreadCrump from "../../../components/admin/common/BreadCrump";
+import Users from "../../../components/admin/users/Users";
+import UserSearch from "../../../components/admin/users/UserSearch";
 
 const UsersPage = () => {
-  return <div>UsersPage</div>;
+  return (
+    <>
+      <BreadCrump />
+      <UserSearch />
+      <Users />
+    </>
+  );
 };
 
 export default UsersPage;
