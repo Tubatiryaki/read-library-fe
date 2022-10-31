@@ -1,15 +1,21 @@
 import React from "react";
-import HomeSearch from "../../components/user/home/home-search/HomeSearch";
-import MenuBar from "../../components/user/home/menubar/MenuBar";
-import TopBar from "../../components/user/home/topbar/TopBar";
+
+/* import HomeSearch from "../../components/user/home/home-search/HomeSearch"; */
+import HomeAnaSayfa from "../../components/user/home/HomeAnaSayfa";
+/* import MenuBar from "../../components/user/home/menubar/MenuBar";
+import TopBar from "../../components/user/home/topbar/TopBar"; */
 
 const HomePage = () => {
   return (
+<>
+   
     <div>
-      <TopBar />
+    {/*   <TopBar />
       <MenuBar />
-      <HomeSearch />
+      <HomeSearch /> */}
+      <HomeAnaSayfa/>
     </div>
+    </>
   );
 };
 

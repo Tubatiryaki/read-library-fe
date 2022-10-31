@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Login from "../components/user/common/auth/Login/Login";
 import HomePage from "../pages/visitor/HomePage";
 
 
@@ -12,6 +13,7 @@ const CustomRoutes = () => {
         <Route path="/">
           <Route index element={<HomePage />} />
           <Route path="library-page" element={<LibraryPage />} />
+          <Route path="login" element={<Login/>}/>
         </Route>
       </Routes>
     </BrowserRouter>
