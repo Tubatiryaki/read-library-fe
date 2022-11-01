@@ -8,6 +8,12 @@ $color6:rgb(26, 24, 24);
 
 /* BOOTSTRAP */
 
-$primary:$color1;
-$navbar-light-hover-color:$color4;
-$navbar-light-active-color:$color3;
+$primary                    :$color4;
+$navbar-light-color         :$color3;
+$navbar-light-hover-color   :$color4;
+$navbar-light-active-color  :$color4;
+$font-family-sans-serif     :"Roboto+Condensed";
+
+
+$input-btn-padding-y        : 1rem;
+$input-btn-padding-x        : 2rem;

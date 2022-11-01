@@ -9,44 +9,63 @@
   gap: 3rem;
   justify-content: center;
   align-items: center;
-  .account-login {
-    gap: 2rem;
-    padding: 2rem;
-    text-decoration: none;
+  margin-top: 5rem;
+  
+  .row{
+    width: 300px;
+    .account-login {
+     
+      padding: 2rem;
+      text-decoration: none;
+      
+  
+      .link {
+        margin-bottom: 2rem;
+        display: flex;
+        justify-content: space-evenly;
+        
+        
+        a {
+          display: inline;
+          text-decoration: none;
+          color: v.$color3;
+          font-size: 12px;
+        }
+      }
+     
+    }
+  
+    .bcg {
+      background-color: v.$color1;
+      margin: 3rem;
+      border-radius: 3rem;
+      
+      
+  
+      svg {
+        background-color: v.$color3;
+        width: 7em;
+        height: 7em;
+        border: 0.5rem solid v.$color4;
+        border-radius: 50%;
+  
+        position: relative;
+        transform: translate(80%, -50%);
+      }
+    }
+  
+    button {
+      padding-right: 8rem;
+      justify-content: center;
+      align-items: center;
+      background-color: v.$color3;
+      border: none;
+      color: v.$color1;
+      font-size: 20px;
+    }
+
   }
-}
-
-.bcg {
-  background-color: v.$color1;
-  margin: 3rem;
-
-  svg {
-    background-color: v.$color3;
-    width: 6em;
-    height: 6em;
-    border: 0.5rem solid v.$color4;
-    border-radius: 50%;
-
-    position: relative;
-    transform: translate(50%, -50%);
-  }
-}
-.account-login {
-  text-decoration: none;
-
-  gap: 5rem;
-  a {
-    display: inline;
-    text-decoration: none;
-    color: v.$color3;
-    font-size: 12px;
-  }
-
-  button {
-    padding-right: 8.2rem;
-    justify-content: center;
-    background-color: v.$color3;
-    border: none;
-    color: v.$color1;
-  }
+ 
+ 
+  
 }
