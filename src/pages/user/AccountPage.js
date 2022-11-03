@@ -1,14 +1,13 @@
 import React from 'react'
 import Login from '../../components/user/common/auth/Login/Login'
-import Footer from '../../components/user/common/footer/Footer'
-import Header from '../../components/user/common/header/Header'
+import Register from '../../components/user/common/auth/register/Register'
 
 const AccountPage = () => {
   return (
     <>
     
     <Login/>
-    
+    <Register/>
     </>
   )
 }

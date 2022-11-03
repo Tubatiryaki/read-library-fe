@@ -1,14 +1,21 @@
 import React from 'react'
-import Authors from './Author/Authors'
+import { FaFilter } from 'react-icons/fa'
+import Author from './Author/Author'
 import Categories from './categories/Categories'
 import Publisher from './Publisher/Publisher'
+import "./Sidebar.scss";
 
 const Sidebar = () => {
   return (
+
+  
     <>
+
+    
       <Categories />
-      <Authors />
+      <Author />
       <Publisher />
+      
     </>
   )
 }

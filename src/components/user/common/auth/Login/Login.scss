@@ -3,28 +3,27 @@
 
 .account {
   display: flex;
-  
+
   width: 500px;
-  height: 400px;
-  gap: 3rem;
+  /*   height: 400px;
+  gap: 3rem; */
   justify-content: center;
   align-items: center;
-  margin-top: 5rem;
-  
-  .row{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+
+  .row {
     width: 300px;
+
     .account-login {
-     
       padding: 2rem;
       text-decoration: none;
-      
-  
+
       .link {
         margin-bottom: 2rem;
         display: flex;
         justify-content: space-evenly;
-        
-        
+
         a {
           display: inline;
           text-decoration: none;
@@ -32,28 +31,26 @@
           font-size: 18px;
         }
       }
-     
     }
-  
+
     .bcg {
       background-color: v.$color1;
       margin: 1rem;
-      border-radius: 3rem;
-      
-      
-  
+      border-radius: 3rem 0 3rem 0;
+
       svg {
         background-color: v.$color3;
         width: 8em;
         height: 8em;
-        border: 1rem solid white;
+        border: 0.3rem solid v.$color2;
         border-radius: 50%;
-  
+        /* box-shadow: 5px 5px 15px v.$color3; */
+
         position: relative;
         transform: translate(-15%, -5%);
       }
     }
-  
+
     button {
       padding-right: 8rem;
       justify-content: center;
@@ -63,9 +60,5 @@
       color: v.$color1;
       font-size: 15px;
     }
-
   }
- 
- 
-  
 }

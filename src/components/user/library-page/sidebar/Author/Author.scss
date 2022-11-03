@@ -1,0 +1,22 @@
+@use "../../../../../assets/scss/variables" as v;
+
+.auth-container{
+    width: 400px;
+    height: 300px;
+    overflow-y: scroll;
+    background-color: v.$color1;
+
+    .author-row{
+        
+        padding: .5rem;
+            .author{
+                background-color: v.$color5;
+                padding: 1rem;
+                
+                
+                
+            }
+        
+        }
+        
+}

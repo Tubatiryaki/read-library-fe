@@ -19,9 +19,9 @@ const CustomRoutes = () => {
           <Route index element={<HomePage />} />
           <Route path="library-page" element={<UserTemplate><LibraryPage /></UserTemplate>} />
           <Route path="contact-page" element={<UserTemplate><ContactPage /></UserTemplate>} />
-          <Route path="login" element={<UserTemplate><AccountPage /></UserTemplate>} />
+          <Route path="login" element={<UserTemplate><Login/></UserTemplate>} />
+          <Route path="register" element={<UserTemplate><Register /></UserTemplate>} />
 
-          <Route path="register" element={<Register />} />
 
 
 

@@ -1,19 +1,17 @@
-$color1:#005555;
-$color2:#069A8E;
-$color3:#A1E3D8;
-$color4:#F7FF93;
-$color5:rgb(231, 228, 228);
-$color6:rgb(26, 24, 24);
-
+$color1: #005555;
+$color2: #069a8e;
+$color3: #a1e3d8;
+$color4: #e7f343;
+$color5: rgb(231, 228, 228);
+$color6: rgb(26, 24, 24);
 
 /* BOOTSTRAP */
 
-$primary                    :$color4;
-$navbar-light-color         :$color3;
-$navbar-light-hover-color   :$color4;
-$navbar-light-active-color  :$color4;
-$font-family-sans-serif     :"Roboto+Condensed";
-
+$primary: $color4;
+$navbar-light-color: $color3;
+$navbar-light-hover-color: $color4;
+$navbar-light-active-color: $color4;
+$font-family-sans-serif: "Roboto+Condensed";
 
 $input-btn-padding-y        : 1rem;
 $input-btn-padding-x        : 2rem;
