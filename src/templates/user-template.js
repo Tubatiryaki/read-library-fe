@@ -1,20 +1,15 @@
 import React from "react";
+import Footer from "../components/user/common/footer/Footer";
+import Header from "../components/user/common/header/Header";
 
-
-const UserTemplate = () => {
-  
+const UserTemplate = (props) => {
+  const { children } = props;
   return (
-    <Container fluid className="p-0 overflow-hidden">
-    <Row>
-      <Col lg={3}>
-        <AdminMenu />
-      </Col>
-      <Col lg={9}>
-        <Container className="pt-5">{children}</Container>
-      </Col>
-    </Row>
-  </Container>
+    <>
+      <Header />
+      {children}
+      <Footer />
+    </>
   );
 };
-
 export default UserTemplate;

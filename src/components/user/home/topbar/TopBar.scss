@@ -1,37 +1,28 @@
 @use "../../../../assets/scss/mixins" as m;
 @use "../../../../assets/scss/variables" as v;
 
-.top-bar {
-  display: flex;
-  justify-content: space-around;
+.TabBarnavbar {
   background-color: v.$color1;
-  padding: 2rem;
+  opacity: .8;
 
   .contact {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-
-    a {
-      display: flex;
-      gap: 0.5rem;
-      color: wheat;
-      text-decoration: none;
-      justify-content: center;
-      
-    }
+    text-align: left;
   }
 
   .login {
-    display: flex;
+    text-align: right;
 
-    a {
-      text-decoration: none;
-      color: wheat;
+    span {
+      color: wheat !important;
+      display: flex;
+      justify-content: center;
+      vertical-align: bottom;
     }
   }
-}
 
-.login span {
-  color: wheat;
+  .text-color {
+    color: wheat !important;
+  }
+
+
 }

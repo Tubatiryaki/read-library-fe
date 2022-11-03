@@ -3,7 +3,7 @@
 
 .account {
   display: flex;
-  background-color: v.$color4;
+  
   width: 500px;
   height: 400px;
   gap: 3rem;
@@ -29,7 +29,7 @@
           display: inline;
           text-decoration: none;
           color: v.$color3;
-          font-size: 12px;
+          font-size: 18px;
         }
       }
      
@@ -37,20 +37,20 @@
   
     .bcg {
       background-color: v.$color1;
-      margin: 3rem;
+      margin: 1rem;
       border-radius: 3rem;
       
       
   
       svg {
         background-color: v.$color3;
-        width: 7em;
-        height: 7em;
-        border: 0.5rem solid v.$color4;
+        width: 8em;
+        height: 8em;
+        border: 1rem solid white;
         border-radius: 50%;
   
         position: relative;
-        transform: translate(80%, -50%);
+        transform: translate(-15%, -5%);
       }
     }
   
@@ -61,7 +61,7 @@
       background-color: v.$color3;
       border: none;
       color: v.$color1;
-      font-size: 20px;
+      font-size: 15px;
     }
 
   }

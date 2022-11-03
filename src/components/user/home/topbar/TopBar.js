@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Container, Nav, Navbar, Row } from "react-bootstrap";
-import { Link } from "react-router-dom";
 import "./TopBar.scss";
 import { MdMail, MdPhone } from "react-icons/md";
 import { settings } from "../../../../utils/settings";
@@ -8,33 +7,32 @@ import { settings } from "../../../../utils/settings";
 const TopBar = () => {
   return (
     <>
-      <Navbar>
+      <Navbar className="TabBarnavbar">
         <Container>
-          <Row className="top-bar">
-            <Col className="contact">
-              <Nav.Link as={Link} to="/">
-                <MdPhone /> {settings.phone1}
-              </Nav.Link>
 
-              <Nav.Link as={Link} to="/">
-                <MdMail />
-                {settings.email}
-              </Nav.Link>
-            </Col>
+          <Col className="contact" >
+            <Nav className="justify-content-start" defaultActiveKey="/" as="ul" >
+              <Nav.Item as="li">
+                <Nav.Link href="/" className="text-color"> <MdPhone /> {settings.phone1}</Nav.Link>
+              </Nav.Item>
+              <Nav.Item as="li">
+                <Nav.Link href={`mailto:${settings.email}`} className="text-color"> <MdMail /> {settings.email}</Nav.Link>
+              </Nav.Item>
+            </Nav>
+          </Col>
 
-            <Col className="login">
-              <div>
-                <Nav.Link as={Link} to="/">
-                  Login
-                </Nav.Link>
+          <Col className="login" >
+            <Nav className="justify-content-end" defaultActiveKey="/login" as="ul" >
+              <Nav.Item as="li">
+                <Nav.Link href="/login" className="text-color">Login</Nav.Link>
+              </Nav.Item>
+              <span className="align-items-center">&nbsp;|&nbsp;</span>
+              <Nav.Item as="li">
+                <Nav.Link href="/register" className="text-color">Register</Nav.Link>
+              </Nav.Item>
+            </Nav>
 
-                <span>&nbsp;|&nbsp;</span>
-                <Nav.Link as={Link} to="/">
-                  Register
-                </Nav.Link>
-              </div>
-            </Col>
-          </Row>
+          </Col>
         </Container>
       </Navbar>
     </>

@@ -1,0 +1,24 @@
+@use "../../../../assets/scss/mixins" as m;
+@use "../../../../assets/scss/variables" as v;
+
+.HomeSearchnavbar {
+
+
+
+
+    img {
+        width: 8rem;
+    }
+
+
+
+
+    .text-color {
+        color: wheat !important;
+    }
+
+    .aa {
+        variant: "secondary";
+    }
+
+}

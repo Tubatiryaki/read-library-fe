@@ -1,8 +1,15 @@
 import React from 'react'
+import Authors from './Author/Authors'
+import Categories from './categories/Categories'
+import Publisher from './Publisher/Publisher'
 
 const Sidebar = () => {
   return (
-    <div>Sidebar</div>
+    <>
+      <Categories />
+      <Authors />
+      <Publisher />
+    </>
   )
 }
 
