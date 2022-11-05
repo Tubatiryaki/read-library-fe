@@ -3,12 +3,15 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "./assets/scss/style.scss";
-import 'mdb-react-ui-kit/dist/css/mdb.min.css';
+import { Provider as StoreProvider  } from "react-redux";
+import store from "./store";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
+    <StoreProvider store={store}>
     <App />
+    </StoreProvider>
   </React.StrictMode>
 );
 

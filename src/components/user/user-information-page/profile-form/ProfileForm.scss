@@ -1,0 +1,14 @@
+@use "../../../../assets/scss/variables" as v;
+
+
+.profile-form{
+background-color: v.$color1;
+margin: 3rem;
+padding: 2rem;
+color: v.$color4;
+
+button{
+    font-size: 20px;
+    justify-content:flex end;
+}
+}

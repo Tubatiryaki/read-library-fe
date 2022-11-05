@@ -1,8 +1,21 @@
 import React from 'react'
+import { Col, Container, Row } from 'react-bootstrap'
+import "./ProfileMenu.scss";
 
 const ProfileMenu = () => {
   return (
-    <div>ProfileMenu</div>
+    <>
+    <Container className="profile-container">
+      <Row className="profile-row">
+        <Col className="profile-img">
+
+        </Col>
+        <Col className="profile-bilgi">
+          
+        </Col>
+      </Row>
+    </Container>
+    </>
   )
 }
 

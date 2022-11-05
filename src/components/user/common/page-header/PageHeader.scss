@@ -1,0 +1,22 @@
+@use "../../../../assets/scss/variables" as v;
+
+.page-header{
+    background-image: url(../../../../assets/img/bg/pageheader.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height:300px;
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:v.$color3;
+
+    &::after{
+        content: "";
+        position: absolute;
+        top:0;bottom:0;right:0;left:0;
+        background-color: v.$color5;
+        opacity:0.8;
+    }
+}

@@ -1,7 +1,14 @@
 import React from "react";
+import Authors from "../../../components/admin/author/Authors";
+import AuthorSearch from "../../../components/admin/author/AuthorSearch";
 
 const AuthorsPage = () => {
-  return <div>AuthorsPage</div>;
+  return (
+    <>
+      <AuthorSearch />
+      <Authors />
+    </>
+  );
 };
 
 export default AuthorsPage;

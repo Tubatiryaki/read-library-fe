@@ -10,6 +10,9 @@ import HomePage from "../pages/visitor/HomePage";
 
 import LibraryPage from "../pages/visitor/LibraryPage";
 import AccountPage from "../pages/user/AccountPage";
+import NotFound from "../components/common/not-found/NotFound";
+import UserInformationPage from "../pages/user/UserInformationPage";
+import PrivacyPolicyPage from "../pages/user/PrivacyPolicyPage";
 
 const CustomRoutes = () => {
   return (
@@ -19,13 +22,14 @@ const CustomRoutes = () => {
           <Route index element={<HomePage />} />
           <Route path="library-page" element={<UserTemplate><LibraryPage /></UserTemplate>} />
           <Route path="contact-page" element={<UserTemplate><ContactPage /></UserTemplate>} />
+          <Route path="privacy-policy" element={<UserTemplate><PrivacyPolicyPage/></UserTemplate>}/>
+          <Route path="account" element={<UserTemplate><AccountPage/></UserTemplate>}/>
           <Route path="login" element={<UserTemplate><Login/></UserTemplate>} />
           <Route path="register" element={<UserTemplate><Register /></UserTemplate>} />
-
-
-
-
+          <Route path="userInformation" element={<UserTemplate><UserInformationPage /></UserTemplate>} />
+          <Route path="notfound" element={<NotFound />} />
         </Route>
+        
       </Routes>
     </BrowserRouter>
   );

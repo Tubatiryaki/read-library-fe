@@ -1,7 +1,12 @@
 import React from "react";
+import AuthorUpdateForm from "../../../components/admin/author/AuthorUpdateForm";
 
 const AuthorEditPage = () => {
-  return <div>AuthorEditPage</div>;
+  return (
+    <>
+      <AuthorUpdateForm />
+    </>
+  );
 };
 
 export default AuthorEditPage;

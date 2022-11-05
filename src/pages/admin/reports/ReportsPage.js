@@ -1,7 +1,14 @@
 import React from "react";
+import BreadCrump from "../../../components/admin/common/BreadCrump";
+import Reports from "../../../components/admin/reports/Reports";
 
 const ReportsPage = () => {
-  return <div>ReportsPage</div>;
+  return (
+    <>
+      <BreadCrump />
+      <Reports />
+    </>
+  );
 };
 
 export default ReportsPage;

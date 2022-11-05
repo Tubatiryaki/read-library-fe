@@ -9,34 +9,117 @@ const Publisher = () => {
       
       
       <Col className="author">
-      <p>Publisher</p>
-      <InputGroup className="mb-3">
-      <InputGroup.Checkbox aria-label="Checkbox for following text input" />
-      <Form.Control aria-label="Text input with checkbox" />
-    </InputGroup>
-    <InputGroup className="mb-3">
-      <InputGroup.Checkbox aria-label="Checkbox for following text input" />
-      <Form.Control aria-label="Text input with checkbox" />
-    </InputGroup>
-    <InputGroup className="mb-3">
-      <InputGroup.Checkbox aria-label="Checkbox for following text input" />
-      <Form.Control aria-label="Text input with checkbox" />
-    </InputGroup>
-    <InputGroup className="mb-3">
-      <InputGroup.Checkbox aria-label="Checkbox for following text input" />
-      <Form.Control aria-label="Text input with checkbox" />
-    </InputGroup>
-    <InputGroup className="mb-3">
-        <InputGroup.Checkbox aria-label="Checkbox for following text input" />
-        <Form.Control aria-label="Text input with checkbox" />
-      </InputGroup>
-      <InputGroup className="mb-3">
-        <InputGroup.Checkbox aria-label="Checkbox for following text input" />
-        <Form.Control aria-label="Text input with checkbox" />
-      </InputGroup>
+     
+      <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckDefault"
+            />
+            <label class="form-check-label" for="flexCheckDefault">
+              Default checkbox
+            </label>
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckDefault"
+            />
+            <label class="form-check-label" for="flexCheckDefault">
+              Default checkbox
+            </label>
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckDefault"
+            />
+            <label class="form-check-label" for="flexCheckDefault">
+              Default checkbox
+            </label>
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckDefault"
+            />
+            <label class="form-check-label" for="flexCheckDefault">
+              Default checkbox
+            </label>
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckDefault"
+            />
+            <label class="form-check-label" for="flexCheckDefault">
+              Default checkbox
+            </label>
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckDefault"
+            />
+            <label class="form-check-label" for="flexCheckDefault">
+              Default checkbox
+            </label>
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckDefault"
+            />
+            <label class="form-check-label" for="flexCheckDefault">
+              Default checkbox
+            </label>
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckDefault"
+            />
+            <label class="form-check-label" for="flexCheckDefault">
+              Default checkbox
+            </label>
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckDefault"
+            />
+            <label class="form-check-label" for="flexCheckDefault">
+              Default checkbox
+            </label>
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckDefault"
+            />
+            <label class="form-check-label" for="flexCheckDefault">
+              Default checkbox
+            </label>
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckDefault"
+            />
+            <label class="form-check-label" for="flexCheckDefault">
+              Default checkbox
+            </label>
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckDefault"
+            />
+          </div>
       </Col>
       
-      <Button><FaFilter/>&nbsp;&nbsp;Filter</Button>
+      
     </Row>
   </Container>
   )
